@@ -1,0 +1,11 @@
+# Disable Jekyll processing for this site
+# This is a plain HTML site using the Dimension template
+# We don't need Jekyll to process it
+
+# Tell GitHub Pages to serve files from root directory
+source: ./
+
+# Exclude unnecessary files
+exclude:
+  - README.txt
+  - LICENSE.txt
